@@ -1,0 +1,156 @@
+/* RESET ALL */
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+/* MAIN */
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    background: hsl(216, 12%, 8%);
+    font-size: 15px;
+    font-family: "Overpass", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTAINER */
+
+.container
+{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #1D242E;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+/* STAR */
+
+.star
+{
+    width: 60px;
+    height: 60px;
+    background-color: #272E38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.star-icon
+{
+    transform: scale(120%);
+}
+
+/* GIVE FEEDBACK */
+
+.give-feedback
+{
+    height: 30%;
+}
+
+.give-feedback h1
+{
+    font-weight: 700;
+    font-size: 2.3em;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.give-feedback p
+{
+    color: hsl(217, 12%, 63%);
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* NOTE BUTTONS */
+
+.note-btn
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.note
+{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    background-color: #272E38;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    font-family: "Overpass", serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* NOTE SUBMIT BUTTON */
+
+.note-submit
+{
+    width: 100%;
+    height: 13%;
+}
+
+.note-submit-btn
+{
+    background-color: hsl(25, 97%, 53%);
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    font-family: "Overpass", serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
